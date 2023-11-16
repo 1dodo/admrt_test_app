@@ -2,7 +2,7 @@ import React from 'react';
 import check from '../Layout/AuthPage/images/check.svg';
 import arrow from '../Layout/AuthPage/images/arrow.svg';
 import bg from '../Layout/AuthPage/images/Rectangle 144.svg';
-import fff from '../Layout/AuthPage/images/fff.svg';
+import fff from '../images/C0D4C3B0-111B-41CF-952D-926464E01F8F.jpg';
 import per1 from '../Layout/AuthPage/images/per1.svg'
 import per2 from '../Layout/AuthPage/images/per2.svg'
 import per3 from '../Layout/AuthPage/images/per3.svg'
@@ -41,7 +41,7 @@ const Header = () => {
           <div class="number ease-in duration-700 cursor-pointer hover:shadow-2xl rounded-xl overflow-hidden max-w-xs order-5 lg:order-none ">
             <div class=" py-5 px-6 sm:px-8">
               <h1 class=" font-bold text-lg border  rounded-full text-center py-2.5 w-12 mb-2.5 ">4</h1>
-              <h2 class="text-xl sm:text-2xl text-gray-800 font-semibold mb-3">Aftermath</h2>
+              <h2 class="text-xl sm:text-2xl text-gray-800 font-semibold mb-3">Results</h2>
               <p class="text-gray-500 -relaxed">See your content on their ad space. Submit a review and share your experience.</p>
             </div>
           </div>
@@ -76,7 +76,7 @@ const Header = () => {
               <section class="duration-700  rounded-lg">
                 <div class="card rounded-lg bg-white hover:bg-blue-600 hover:text-white p-4 mt-6 shadow-lg">
                   <div class="content hover:bg-blue-600">
-                    <h1 class="font-extrabold text-sm -7">Sign up as an space host.</h1>
+                    <h1 class="font-semibold text-base -7">Sign up as an space host.</h1>
                     <div class="hover_content hover:bg-blue-600 flex">
                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
                       <div class=" items-center relative">
@@ -90,7 +90,7 @@ const Header = () => {
               <section class=" rounded-lg">
                 <div class="card rounded-lg bg-white hover:bg-blue-600 hover:text-white p-4 mt-6 shadow-lg">
                   <div class="content hover:bg-blue-600">
-                    <h1 class="font-extrabold text-sm -7">Setup your account and get verified.</h1>
+                    <h1 class="font-semibold text-base -7">Setup your account and get verified.</h1>
                     <div class="hover_content hover:bg-blue-600 flex">
                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
                       <div class=" items-center relative">
@@ -103,7 +103,7 @@ const Header = () => {
               <section class=" rounded-lg">
                 <div class="card rounded-lg bg-white hover:bg-blue-600 hover:text-white p-4 mt-6 shadow-lg">
                   <div class="content hover:bg-blue-600">
-                    <h1 class="font-extrabold text-sm -7">Get advertisers to contact you.</h1>
+                    <h1 class="font-semibold text-base -7">Get advertisers to contact you.</h1>
                     <div class="hover_content hover:bg-blue-600 flex">
                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
                       <div class=" items-center relative">
@@ -118,10 +118,10 @@ const Header = () => {
         </div>
       </div>
       <div class="md:flex items-center justify-end max-w-screen-2xl px-8 py-10 md:py-0 mx-auto xl:px-5">
-        <div class="">
+        <div class="md:w-3/5 w-full mb-6 md:mb-0">
           <img class="" src={fff} alt="" />
         </div>
-        <div class=" md:ml-8 items-center ">
+        <div class="md:w-2/5 md:ml-8 items-center ">
           <div class="">
             <h1 class="font-bold text-4xl -10">Why use AdMrt?</h1>
           </div>
@@ -139,6 +139,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+
       <div class="bg-sky-100 py-20">
         <div class="block justify-center items-center justify-end max-w-screen-2xl px-8 mx-auto xl:px-5">
           <div class="block text-center items-center justify-center">

@@ -5,21 +5,21 @@ import image from '../Layout/AuthPage/images/image 27.png'
 
 const Home = () => {
   return (
-    <div class="home-con h-full">
-      <div class=" items-center max-w-screen-2xl  md:px-8  py-4 mx-auto xl:px-5">
+<div class="home-con h-full">
+      <div class=" items-center max-w-screen-2xl px-4 md:px-8  py-4 mx-auto xl:px-5">
         <div class="flex flex-wrap items-center my-10 md:my-20 sm:-mx-3">
           <div class="w-full md:w-3/5 md:px-3">
             <div class="w-full pb-6   sm:pr-5 lg:pr-0 md:pb-0">
               <h1 class="text-4xl lg:text-5xl xl:text-7xl md:max-w-3xl font-bold">Find the <span class="text-blue-700">best place</span> to Advertise</h1>
-              <form class="mt-6 md:mt-12 sm:max-w-md md:max-w-lg ">
-                <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+              <form class="my-6  md:mt-12 sm:max-w-md md:max-w-lg ">
+                <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
                 <div class="relative">
                   <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
 
                   </div>
-                  <input type="search" id="default-search" class="block w-full p-5 px-7 pl-10 text-sm text-gray-900 border-none border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search for ads ..." required />
-                  <button type="submit" class="text-black absolute right-2.5 py-3 px-8 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-white text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                  <input type="search" id="" class="block w-full p-5 px-4  text-sm text-gray-900 border-gray-300  rounded-lg border-blue-500 focus:ring-blue-500 focus:border-blue-500 focus:outline-none" placeholder="Search for ads ..." required />
+                  <button type="submit" class="text-black absolute right-2.5 py-3 px-8 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-white text-sm px-4 py-2">Search</button>
                 </div>
               </form>
               <div>
